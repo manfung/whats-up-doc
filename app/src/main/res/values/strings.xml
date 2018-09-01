@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Whats up doc</string>
+
+    <string name="btn_login_txt">Login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_error_txt">Error</string>
+
+    // notification
+    <string name="notification_title">Consultation time</string>
+    <string name="notification_msg">Its time for your consultation</string>
+
+</resources>

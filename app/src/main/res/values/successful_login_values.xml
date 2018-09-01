@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_patient_txt">Book consultation</string>
+    <string name="btn_consultation_txt">Start consultation</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/margin_large"
+    tools:context=".ui.successful.login.SuccessfulLoginActivity">
+
+    <Button
+        android:id="@+id/btn_patient_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/btn_patient_txt"
+        android:onClick="onBtnClicked" />
+
+    <Button
+        android:id="@+id/btn_consultation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/btn_consultation_txt"
+        android:onClick="onBtnClicked" />
+
+    <TextView
+        android:id="@+id/tv_appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:text="Some when consultation date is"/>
+
+</LinearLayout>

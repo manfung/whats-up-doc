@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="book_consultation_title">Book Consultation</string>
+    <string name="name_hint">Name</string>
+    <string name="address_hint">Address</string>
+    <string name="symptoms_hint">what are the symptoms?</string>
+    <string name="why_hint">Why do you want to speak to a doctor?</string>
+    <string name="btn_book">Book</string>
+    <string name="btn_time_picker">Select time</string>
+
+</resources>

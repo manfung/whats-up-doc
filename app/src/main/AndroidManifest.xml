@@ -24,11 +24,11 @@
         <activity android:name=".ui.consultation.ConsultationActivity"></activity>
 
         <receiver
-            android:name=".receiver.AlarmReceiver"
+            android:name="com.tephra.mc.whatsupdoc.data.receiver.AlarmReceiver"
             android:enabled="true" />
 
         <service
-            android:name=".service.NotificationService"
+            android:name="com.tephra.mc.whatsupdoc.data.service.NotificationService"
             android:enabled="true" />
     </application>
 

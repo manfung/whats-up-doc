@@ -7,6 +7,8 @@
     <string name="login_error_txt">Error</string>
 
     // notification
+    <string name="notification_channel_name">Consultation time notification channel name</string>
+    <string name="notification_channel_description">Consultation time notification channel description</string>
     <string name="notification_title">Consultation time</string>
     <string name="notification_msg">Its time for your consultation</string>
 

@@ -35,7 +35,7 @@ Built with Android Studio 3.3 Canary 8
 
 [Jsonplaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping
 
-Twilio quick start guide [twilio/video-quickstart-android](https://github.com/twilio/video-quickstart-android/tree/master/quickstartKotlin)
+[twilio/video-quickstart-android](https://github.com/twilio/video-quickstart-android/tree/master/quickstartKotlin) - Twilio quick start guide 
 
 **License**
 ```

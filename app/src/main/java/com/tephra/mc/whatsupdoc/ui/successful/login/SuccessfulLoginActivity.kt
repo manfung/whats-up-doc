@@ -7,6 +7,7 @@ import com.tephra.mc.whatsupdoc.R
 import com.tephra.mc.whatsupdoc.ui.base.BaseActivity
 import com.tephra.mc.whatsupdoc.ui.consultation.ConsultationActivity
 import com.tephra.mc.whatsupdoc.ui.book.BookConsultationActivity
+import com.tephra.mc.whatsupdoc.ui.consultation.VideoActivity
 
 class SuccessfulLoginActivity : BaseActivity() {
 
@@ -20,7 +21,7 @@ class SuccessfulLoginActivity : BaseActivity() {
         var intent = when (v.id) {
             R.id.btn_patient_details -> Intent(this, BookConsultationActivity::class.java)
             else -> {
-                Intent(this, ConsultationActivity::class.java)
+                Intent(this, VideoActivity::class.java)
             }
         }
         startActivity(intent)

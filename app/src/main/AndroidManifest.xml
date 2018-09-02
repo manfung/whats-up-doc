@@ -4,6 +4,12 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
     <application
         android:name=".WhatsUpDocApp"
         android:allowBackup="true"
@@ -22,6 +28,21 @@
         <activity android:name=".ui.successful.login.SuccessfulLoginActivity" />
         <activity android:name=".ui.book.BookConsultationActivity" />
         <activity android:name=".ui.consultation.ConsultationActivity"></activity>
+
+        <activity
+            android:name=".ui.consultation.VideoActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+
+        <activity
+            android:name=".ui.consultation.SettingsActivity"
+
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".ui.consultation.VideoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.consultation.VideoActivity" />
+        </activity>
 
         <receiver
             android:name="com.tephra.mc.whatsupdoc.data.receiver.AlarmReceiver"

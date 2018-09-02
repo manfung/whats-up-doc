@@ -25,7 +25,7 @@ If failing to connect to a Room generate a new token as it has a short expiry ti
 * LiveData 		- Lifecycle-aware observable data holder
 * Kotlin Coroutines 	- Write asynchronous code sequentially
 * Twilio 			- In-app voice and video SDK
-* koush/ion 		- Android Asynchronous Networking and Image Loading
+* Koush/ion 		- Android Asynchronous Networking and Image Loading
 
 
 Built with Android Studio 3.3 Canary 8

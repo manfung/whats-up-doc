@@ -2,21 +2,24 @@
 
 buildscript {
 
-    ext.kotlin_version = '1.2.60'
-    ext.constraint_layout_version = '1.1.2'
-    ext.lifecycle_version = '2.0.0-alpha1'
-    ext.junit_version = '4.12'
-    ext.retrofit_version = '2.4.0'
-    ext.dagger_version = '2.16'
-    ext.supported_android_version = '1.0.0-rc01'
-    ext.coroutines_adapter_version = '1.0.0'
-    ext.runner_version = '1.1.0-alpha3'
-    ext.espresso_version = '3.1.0-alpha3'
-    ext.mockito_version = "2.21.0"
-    ext.coroutines_adapter_version = '1.0.0'
-    ext.navigationVersion = '1.0.0-alpha05'
-    ext.logging_interceptor_version = '3.9.1'
-    ext.twilio_version = '2.1.0'
+    ext {
+        kotlin_version = '1.2.60'
+        constraint_layout_version = '1.1.2'
+        lifecycle_version = '2.0.0-alpha1'
+        junit_version = '4.12'
+        retrofit_version = '2.4.0'
+        dagger_version = '2.16'
+        supported_android_version = '1.0.0-rc01'
+        coroutines_adapter_version = '1.0.0'
+        runner_version = '1.1.0-alpha3'
+        espresso_version = '3.1.0-alpha3'
+        mockito_version = "2.21.0"
+        coroutines_adapter_version = '1.0.0'
+        navigationVersion = '1.0.0-alpha05'
+        logging_interceptor_version = '3.9.1'
+        twilio_version = '2.1.0'
+        mockitokotlin2_version = "2.0.0-RC1"
+    }
 
     repositories {
         google()

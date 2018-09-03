@@ -32,14 +32,12 @@ class LoginViewModel @Inject constructor(private val loginRepo: ILoginRepo): Vie
         }
     }
 
-    private fun isValid():Boolean {
-        // TODO
-        return true
-//        return (isItemValid(email, emailError) and isItemValid(password, passwordError))
+    fun isValid():Boolean {
+        return (isItemValid(email, emailError) and isItemValid(password, passwordError))
     }
 
     private fun isItemValid(isItemData:MutableLiveData<String>, dataError:MutableLiveData<String>): Boolean {
-        return if (isItemData.value == null) {
+        return if (isItemData.value == null || isItemData.value == "" ) {
             dataError.value = "Error"
             false
         } else {

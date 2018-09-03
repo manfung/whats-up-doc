@@ -6,6 +6,7 @@
     <string name="address_hint">Address</string>
     <string name="symptoms_hint">what are the symptoms?</string>
     <string name="why_hint">Why do you want to speak to a doctor?</string>
+    <string name="select_time_text">Select time</string>
     <string name="btn_book">Book</string>
     <string name="btn_time_picker">Select time</string>
 

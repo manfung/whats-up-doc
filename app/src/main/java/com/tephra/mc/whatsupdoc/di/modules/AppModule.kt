@@ -8,7 +8,8 @@ import javax.inject.Singleton
 @Module(includes = [ViewModelModule::class,
                     ServiceModule::class,
                     ActivityModule::class,
-                    RepositoryModule::class])
+                    RepositoryModule::class,
+                    LocalStorageModule::class])
 class AppModule(val app: Application) {
 
     @Provides

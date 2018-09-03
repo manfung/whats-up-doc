@@ -5,7 +5,7 @@ import com.tephra.mc.whatsupdoc.R
 import com.tephra.mc.whatsupdoc.data.model.Booking
 import javax.inject.Inject
 
-class LocalSharedPreferences @Inject constructor(val context: Context) {
+class LocalStorage @Inject constructor(val context: Context) {
 
     fun save(booking: Booking) {
 

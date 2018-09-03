@@ -1,6 +1,6 @@
 package com.tephra.mc.whatsupdoc.di.modules
 
-import com.tephra.mc.whatsupdoc.data.local.LocalSharedPreferences
+import com.tephra.mc.whatsupdoc.data.local.LocalStorage
 import com.tephra.mc.whatsupdoc.data.repository.consultation.ConsultationRepo
 import com.tephra.mc.whatsupdoc.data.repository.consultation.IConsultationRepo
 import com.tephra.mc.whatsupdoc.data.repository.login.ILoginRepo
@@ -18,7 +18,7 @@ class RepositoryModule {
     }
 
     @Provides
-    internal fun provideConsultationRepo(LocalSharedPreferences: LocalSharedPreferences): IConsultationRepo {
+    internal fun provideConsultationRepo(LocalSharedPreferences: LocalStorage): IConsultationRepo {
         return ConsultationRepo(LocalSharedPreferences)
     }
 

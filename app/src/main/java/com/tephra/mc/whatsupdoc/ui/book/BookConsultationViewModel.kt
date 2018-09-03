@@ -10,7 +10,6 @@ class BookConsultationViewModel @Inject constructor(private val consultationRepo
     val showTimePickerEvent = MutableLiveData<Any>()
     val bookedEvent = MutableLiveData<Any>()
 
-    val name = MutableLiveData<String>()
     val symptoms = MutableLiveData<String>()
     val why = MutableLiveData<String>()
     var time: Long = 0

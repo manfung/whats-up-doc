@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.View
 import com.tephra.mc.whatsupdoc.R
 import com.tephra.mc.whatsupdoc.ui.base.BaseActivity
-import com.tephra.mc.whatsupdoc.ui.consultation.ConsultationActivity
 import com.tephra.mc.whatsupdoc.ui.book.BookConsultationActivity
 import com.tephra.mc.whatsupdoc.ui.consultation.VideoActivity
 

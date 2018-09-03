@@ -1,6 +1,5 @@
 package com.tephra.mc.whatsupdoc.di.modules
 
-import com.tephra.mc.whatsupdoc.ui.consultation.ConsultationActivity
 import com.tephra.mc.whatsupdoc.ui.login.LoginActivity
 import com.tephra.mc.whatsupdoc.ui.book.BookConsultationActivity
 import com.tephra.mc.whatsupdoc.ui.successful.login.SuccessfulLoginActivity
@@ -18,9 +17,5 @@ abstract class ActivityModule {
 
     @ContributesAndroidInjector
     abstract fun patientDetailsActivity(): BookConsultationActivity
-
-    @ContributesAndroidInjector
-    abstract fun consultationActivity(): ConsultationActivity
-
 
 }

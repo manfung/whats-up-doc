@@ -17,7 +17,7 @@ class NotificationUtils {
                 PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT)
             }
 
-            alarmMgr?.set(
+            alarmMgr.set(
                     AlarmManager.RTC_WAKEUP,
                     timeInMilliSeconds,
                     alarmIntent

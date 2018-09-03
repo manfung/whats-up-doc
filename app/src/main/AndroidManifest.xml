@@ -27,7 +27,6 @@
         </activity>
         <activity android:name=".ui.successful.login.SuccessfulLoginActivity" />
         <activity android:name=".ui.book.BookConsultationActivity" />
-        <activity android:name=".ui.consultation.ConsultationActivity"></activity>
 
         <activity
             android:name=".ui.consultation.VideoActivity"

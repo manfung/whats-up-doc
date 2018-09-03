@@ -35,7 +35,9 @@ Built with Android Studio 3.3 Canary 8
 
 [Jsonplaceholder](https://jsonplaceholder.typicode.com/) - Fake Online REST API for Testing and Prototyping
 
-[twilio/video-quickstart-android](https://github.com/twilio/video-quickstart-android/tree/master/quickstartKotlin) - Twilio quick start guide 
+[Twilio](https://github.com/twilio/video-quickstart-android/tree/master/quickstartKotlin) - Twilio in-app voice and video SDK
+
+[MindMap](https://www.mindmup.com/) - Free online mind mapping
 
 **License**
 ```

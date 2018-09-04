@@ -14,7 +14,6 @@ class NotificationService : IntentService("NotificationService") {
         const val CHANNEL_ID = "com.tephra.mc.whatsupdoc.CHANNEL_ID"
     }
 
-    private lateinit var mNotification: Notification
     private val mNotificationId: Int = 1000
 
     private fun createChannel() {

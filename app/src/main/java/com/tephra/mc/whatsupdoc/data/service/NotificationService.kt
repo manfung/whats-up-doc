@@ -26,7 +26,6 @@ class NotificationService : IntentService("NotificationService") {
             channel.enableVibration(true)
             channel.setShowBadge(true)
             channel.enableLights(true)
-            channel.description = getString(R.string.notification_msg)
             channel.lockscreenVisibility = Notification.VISIBILITY_PUBLIC
             // Register the channel with the system; you can't change the importance
             // or other notification behaviors after this

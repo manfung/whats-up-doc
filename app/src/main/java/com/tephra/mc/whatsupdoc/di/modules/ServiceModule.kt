@@ -30,7 +30,6 @@ class ServiceModule {
     @Provides
     fun provideRetrofit(): Retrofit {
 
-        //TODO clean me up
         val interceptor = HttpLoggingInterceptor()
         interceptor.level = HttpLoggingInterceptor.Level.BODY
         val client = OkHttpClient.Builder().addInterceptor(interceptor).build()

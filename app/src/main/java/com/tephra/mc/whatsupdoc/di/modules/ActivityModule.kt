@@ -16,6 +16,6 @@ abstract class ActivityModule {
     abstract fun successfulLoginActivity(): SuccessfulLoginActivity
 
     @ContributesAndroidInjector
-    abstract fun patientDetailsActivity(): BookConsultationActivity
+    abstract fun bookConsultationActivity(): BookConsultationActivity
 
 }
